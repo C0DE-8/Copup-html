@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header button {
+  background-color: #4caf50;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero button {
+  margin: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.why-copup,
+.features,
+.trust,
+.testimonials {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  margin: 1rem;
+  width: 30%;
+  background: #202020;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 1rem;
+}
